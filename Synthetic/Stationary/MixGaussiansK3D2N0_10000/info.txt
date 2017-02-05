@@ -1,0 +1,15 @@
+# of instances: 10,000
+# of attributes: 3
+attribute types:
+	- X1: numeric
+	- X2: numeric
+	- class: nominal
+missing values? No
+noise? No
+
+Description:
+
+	2-dimensional instances divided in three classes, represented as gaussians.
+
+	Generated with package stream in R, by calling function DSD_Gaussians with parameters k=3, d=2.
+

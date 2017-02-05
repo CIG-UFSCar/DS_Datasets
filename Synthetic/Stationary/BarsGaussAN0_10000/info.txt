@@ -1,0 +1,14 @@
+# of instances: 10,000
+# of attributes: 3
+attribute types:
+	- x: numeric
+	- y: numeric
+	- class: nominal
+missing values? No
+noise? No
+
+Description:
+
+	2-dimensional instances divided in four classes, of different densities and shape: one gaussian with lower density, one gaussian with higher density, one bar with lower density, one bar with higher density.
+
+	Generated with package stream in R, by calling function DSD_BarsAndGaussians with no parameters.
