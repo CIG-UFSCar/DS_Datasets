@@ -1,0 +1,16 @@
+# of instances: 40,000
+# of attributes: 3
+attribute types:
+	- X1: numeric
+	- X2: numeric
+	- class: nominal
+missing values? No
+noise? Yes
+
+Description:
+
+	Instances divided in classes, represented as gaussians, that move within the 2-dimensional space, overlapping in some places.
+
+	Generated with package streamMOA in R (set.seed(1000)), by calling function DSD_RandomRBFGeneratorEvents changing from default value parameters modelSeed = 1000, instanceSeed = 1000, numClusterRange = 7, eventDeleteCreate = TRUE, eventMergeSplitOption = TRUE, eventFrequency = 5000.
+
+	Behaviour: starts with five classes moving; One class is deleted; A cluster of noisy data is splitted from one of the classes; The cluster of noisy data is deleted; A sixth class is created; A seventh class is splitted from one of the other classes; The sixth class is merged with one of the original classes; One of the original classes is deleted; The sixth class is deleted.
