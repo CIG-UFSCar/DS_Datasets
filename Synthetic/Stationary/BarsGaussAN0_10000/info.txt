@@ -11,4 +11,4 @@ Description:
 
 	2-dimensional instances divided in four classes, of different densities and shape: one gaussian with lower density, one gaussian with higher density, one bar with lower density, one bar with higher density.
 
-	Generated with package stream in R, by calling function DSD_BarsAndGaussians with no parameters.
+	Generated with package stream in R (set.seed(1000)), by calling function DSD_BarsAndGaussians with no parameters.

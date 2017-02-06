@@ -11,6 +11,6 @@ Description:
 
 	2-dimensional instances divided in four classes, represented as gaussians.
 
-	Generated with package stream in R, by calling function DSD_Gaussians with parameters k=4, d=2.
+	Generated with package stream in R (set.seed(1000)), by calling function DSD_Gaussians with parameters k=4, d=2.
 
 

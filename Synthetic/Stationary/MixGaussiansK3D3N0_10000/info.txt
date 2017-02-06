@@ -12,6 +12,6 @@ Description:
 
 	3-dimensional instances divided in three classes, represented as gaussians.
 
-	Generated with package stream in R, by calling function DSD_Gaussians with parameters k=3, d=3.
+	Generated with package stream in R (set.seed(1000)), by calling function DSD_Gaussians with parameters k=3, d=3.
 
 
