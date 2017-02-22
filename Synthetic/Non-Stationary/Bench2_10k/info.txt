@@ -1,0 +1,16 @@
+# of instances: 10,000
+# of attributes: 3
+attribute types:
+	- X1: numeric
+	- X2: numeric
+	- class: nominal
+missing values? No
+noise? No
+
+Description:
+
+	2-dimensional instances divided in three classes, two are represented by stationary gaussians and the third moves between the other two, with partial overlapping.
+
+	Generated with package stream in R (set.seed(1000)), by calling function DSD_Benchmark with parameter i = 2.
+
+
